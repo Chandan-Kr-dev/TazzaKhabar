@@ -4,13 +4,14 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import Home from './Components/Home/Home.jsx'
+
+import TopHeadlines from './Components/TopHeadlines/TopHeadlines.jsx'
 
 
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home/>}/>
+      <Route path='' element={<TopHeadlines/>}/>
     </Route>
   )
 )

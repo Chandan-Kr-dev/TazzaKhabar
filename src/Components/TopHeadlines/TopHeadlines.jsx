@@ -1,7 +1,7 @@
 import React from 'react'
 import NewsCard from '../NewsCard/NewsCard'
 
-function Home() {
+function TopHeadlines() {
   return (
     <div>
       <NewsCard/>
@@ -9,4 +9,4 @@ function Home() {
   )
 }
 
-export default Home
+export default TopHeadlines

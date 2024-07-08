@@ -9,8 +9,8 @@ function Navbar() {
             <NavLink to="/" className='text-xl font-semibold mx-3 '>
               Home
             </NavLink>
-            <NavLink to="/about" className='text-xl font-semibold mx-3 '>
-              About
+            <NavLink to="/SportNews" className='hover:border-black hover: text-xl font-semibold mx-3 '>
+              SportNews
             </NavLink>
             
           </nav>
