@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function ScienceNews() {
     const [ScienceNews, setScienceNews] = useState([])
@@ -11,6 +11,7 @@ function ScienceNews() {
             setScienceNews(res.data.articles)
         })
     }
+    useEffect(()=>{getScienceNews()},[])
 
   return (
     <div>

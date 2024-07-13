@@ -1,11 +1,8 @@
-This is a Daily News app 
-I learn about the use of apis and handling api in it  
+# Tazza Khabar
 
-# React + Vite
+This is a daily news app 
+This application is made by the use of the react library with the help of vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I learned about handling the News API in the following project
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+and also learned about the various tailwind classes

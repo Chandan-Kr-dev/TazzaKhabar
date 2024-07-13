@@ -5,7 +5,7 @@ import Entertainment from "../Entertainment/Entertainment";
 
 function Navbar() {
   return (
-    <div className=" mx-auto mt-5 rounded p-3 bg-slate-200 text-black font-medium flex flex-col">
+    <div className=" mx-auto rounded p-3 bg-slate-200 text-black font-medium flex flex-col">
       <div className="flex  justify-center items-center gap-3">
         <nav className="flex justify-center items-center gap-5">
           <NavLink
