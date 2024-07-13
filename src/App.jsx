@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
+import SportsNews from './Components/SportsNews/SportsNews'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className='w-full h-screen bg-slate-700'>
       <Header/>
       <Navbar/>
+      <SportsNews/>
     </div>
     
   )
